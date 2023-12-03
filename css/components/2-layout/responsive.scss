@@ -1,0 +1,34 @@
+@media (min-width: 1280px) {
+}
+@media (min-width: 1160px) {
+  .autoContainer {
+    padding: 0 40px;
+  }
+}
+@media (min-width: 1025px) {
+  .autoContainer {
+    padding: 0 30px;
+  }
+  @include header-1025;
+}
+
+@media (min-width: 940px) {
+  .autoContainer {
+    padding: 0 25px;
+  }
+}
+@media (min-width: 768px) {
+  .autoContainer {
+    padding: 0 15px;
+  }
+}
+@media (min-width: 580px) {
+  ._hideMob {
+    display: none;
+  }
+}
+@media (min-width: 460px) {
+}
+@media (min-width: 390px) {
+  @include typography-390;
+}
